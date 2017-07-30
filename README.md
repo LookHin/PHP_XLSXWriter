@@ -1,4 +1,4 @@
-PHP_XLSXWriter
+PHP_XLSXWriter (Add Header Style)
 ==============
 
 This library is designed to be lightweight, and have minimal memory usage.
