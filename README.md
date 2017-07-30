@@ -43,6 +43,7 @@ $data = array(
 
 $writer = new XLSXWriter();
 $writer->writeSheetHeader('Sheet1', $header );
+//$writer->writeSheetHeader('Sheet1', $header, false, array("fill"=>"#00FF00"));
 foreach($data as $row)
 	$writer->writeSheetRow('Sheet1', $row );
 $writer->writeToFile('example.xlsx');
